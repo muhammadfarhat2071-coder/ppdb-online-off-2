@@ -1,0 +1,65 @@
+# === Laravel Core (wajib) ===
+/node_modules
+/vendor
+.env
+.env.backup
+.env.production
+.php
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# === Cache & Compiled ===
+/bootstrap/cache/*.php
+/storage/*.key
+/storage/app/public/*
+/storage/app/*.php
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/logs/*.log
+/storage/pail/*
+
+# === Public & Hot Reload ===
+/public/hot
+/public/storage
+/public/build
+/public/mix-manifest.json
+
+# === IDE & Editor ===
+.idea
+.vscode
+.nova
+.fleet
+.zed
+.phpstorm.meta.php
+*.sublime-workspace
+*.sublime-project
+
+# === OS & Misc ===
+.DS_Store
+Thumbs.db
+.desktop.ini
+*.swp
+*~
+
+# === Composer ===
+/auth.json        
+.phpactor.json
+
+# === Testing & Tools ===
+.phpunit.cache
+.pest
+coverage
+.php-cs-fixer.cache
+
+# === Laravel Octane (jika pakai Swoole/RoadRunner) ===
+octane.sock
+
+# === Laravel Telescope / Pulse / Horizon (jika dipakai) ===
+/storage/app/telescope
+/storage/app/pulse
